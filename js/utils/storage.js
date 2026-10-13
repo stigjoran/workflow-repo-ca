@@ -14,7 +14,7 @@ export function saveUser(user) {
 }
 
 export function getUsername() {
-  const { data } = getFromStorage(userKey);
+  const { data } = getFromStorage(userKey) ?? {};
   return data ? data.name : null;
 }
 

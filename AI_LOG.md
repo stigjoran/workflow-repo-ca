@@ -15,10 +15,14 @@ All entries in this log refer to assistance from ChatGPT.
 - Assistance: Explanations, configuration examples, and terminal commands.
 - Outcome: I entered the changes and ran the checks. Eslint reported no errors, and Prettier confirmed that the formatting passed.
 
-
 ## 13 October 2026
 
 - Purpose: Understand how to configure Husky and lint-staged
 - Assistance: Configuration examples, terminal commands and explanation of pre-commit and staged files.
 - Outcome: I configured the hook and ran lint-staged on staged HTML and JavaScript files. Formatting and linting passed.
 
+## 13 October 2026
+
+- Purpose: Learn unit testing with Vitest and configure jsdom.
+- Assistance: Test scaffolding, explanations of assertions and test isolation, feedback on my tests, and debugging configuration placement and null destructuring in getUsername.
+- Outcome: I wrote five isActivePath tests and two getUsername test with guidance. All seven passed. I applied the suggested null-handling fix in getUsername.
