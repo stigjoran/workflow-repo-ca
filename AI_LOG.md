@@ -1,6 +1,7 @@
 # AI Usage log
 
 All entries in this log refer to assistance from ChatGPT.
+ChatGPT also helped draft this log and the README, which I reviewed and edited.
 
 ## 7 October 2026
 
@@ -11,9 +12,9 @@ All entries in this log refer to assistance from ChatGPT.
 ## 9 October 2026
 
 - Purpose: Help understand ESlint and Prettier configuration, Node settings for the Tailwind config.
-  And a Eslint error about an unused initial value in `typeClasses`.
+  And a ESlint error about an unused initial value in `typeClasses`.
 - Assistance: Explanations, configuration examples, and terminal commands.
-- Outcome: I entered the changes and ran the checks. Eslint reported no errors, and Prettier confirmed that the formatting passed.
+- Outcome: I entered the changes and ran the checks. ESlint reported no errors, and Prettier confirmed that the formatting passed.
 
 ## 13 October 2026
 
@@ -25,4 +26,10 @@ All entries in this log refer to assistance from ChatGPT.
 
 - Purpose: Learn unit testing with Vitest and configure jsdom.
 - Assistance: Test scaffolding, explanations of assertions and test isolation, feedback on my tests, and debugging configuration placement and null destructuring in getUsername.
-- Outcome: I wrote five isActivePath tests and two getUsername test with guidance. All seven passed. I applied the suggested null-handling fix in getUsername.
+- Outcome: I wrote five isActivePath tests and two getUsername tests with guidance. All seven passed. I applied the suggested null-handling fix in getUsername.
+
+## 13 October 2026 End to end testing
+
+- Purpose: Configure Playwright and understand login and navigation tests.
+- Assistance: Explanations in Norwegian of Playwright concepts and test steps, configuration examples, feedback on my attempts, and debugging specific errors. Debugging included corrected code examples based on my attempts.
+- Outcome: All nine end to end tests passed across Chromium, Firefox and WebKit.
