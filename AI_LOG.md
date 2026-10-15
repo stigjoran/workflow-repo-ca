@@ -33,3 +33,9 @@ ChatGPT also helped draft this log and the README, which I reviewed and edited.
 - Purpose: Configure Playwright and understand login and navigation tests.
 - Assistance: Explanations in Norwegian of Playwright concepts and test steps, configuration examples, feedback on my attempts, and debugging specific errors. Debugging included corrected code examples based on my attempts.
 - Outcome: All nine end to end tests passed across Chromium, Firefox and WebKit.
+
+## 15 october 2026 Plywright trouble shooting
+
+- Purpose: Network errors during end to end tests.
+- Assistance: Help interpreting errors and configure Playwright to use one worker.
+- Outcome: All nine tests passed with one worker. I updated the configuration to run one test at a time. The cause of the earlier network errors was not confirmed.
